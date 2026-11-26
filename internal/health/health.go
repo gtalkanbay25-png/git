@@ -33,3 +33,13 @@ func ScoreMessage(msg string) int {
 	}
 	return score
 }
+
+func Label(avg float64) string {
+	if avg < 1.5 {
+		return "messy"
+	} else if avg >= 1.5 && avg < 2.5 {
+		return "acceptable"
+	} else {
+		return "tidy"
+	}
+}
