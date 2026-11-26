@@ -12,6 +12,7 @@ func TestScoreMessage(t *testing.T) {
 		{"update README", 2},
 		{"add: README with project description", 3},
 		{"fixed stuff", 0},
+		{"", 0},
 	}
 	for _, c := range cases {
 		got := ScoreMessage(c.msg)
