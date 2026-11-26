@@ -13,4 +13,4 @@
 У меня два удалённых репозитория: origin (Gitea школы) и github (GitHub). В Gitea отправляю командой git push, а на GitHub командой git push github main.
 
 ## Analyzer
-Repo Health Analyzer читает историю через git log, ставит каждому сообщению коммита от 0 до 3 баллов и выводит итог: tidy, acceptable или messy. Логика лежит в internal/health, запуск через go run .
+Repo Health Analyzer читает историю через git log, ставит каждому сообщению коммита от 0 до 3 баллов и выводит итог: tidy, acceptable или messy. Логика лежит в internal/health, запуск через go run ./analyzer
